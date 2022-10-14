@@ -1,5 +1,5 @@
 const containerEl = document.querySelector(".container");
-const texts = ["My name is Dinu Darii and currently I am a CS student.", "I am eager to learn and I am not afraid of challenges.", "Thank you for your attention!"];
+const texts = ["Hello there, let me introduce myself!", "My name is Dinu Darii and currently I am a CS student.", "I am eager to learn and I am not afraid of challenges.", "Thank you for your attention!"];
 let index = 0;
 let indexChar = 0;
 updateText();
