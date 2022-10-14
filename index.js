@@ -1,5 +1,5 @@
 const containerEl = document.querySelector(".container");
-const texts = ["Currently, I am a CS student.", "I am eager to learn and I'm not afraid of challenges!"];
+const texts = ["My name is Dinu Darii and currently I am a CS student.", "I am eager to learn and I am not afraid of challenges.", "Thank you for your attention!"];
 let index = 0;
 let indexChar = 0;
 updateText();
@@ -9,6 +9,11 @@ function updateText() {
     if(indexChar == texts[index].length){
         index++
         indexChar = 0;
+    }
+
+    if(index == texts.length){
+        index = 0
+        indexChar = 0
     }
     setTimeout(updateText, 350); 
 }
