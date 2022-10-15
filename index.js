@@ -15,6 +15,6 @@ function updateText() {
         index = 0
         indexChar = 0
     }
-    setTimeout(updateText, 350); 
+    setTimeout(updateText, 200); 
 }
 
